@@ -149,10 +149,10 @@ class App extends Component {
               width={800}
               videoConstraints={videoConstraints}
             />
-            <button onClick={this.capture} class="btn btn-small btn-primary btn-upload bg-black h5">Capture photo</button>
+            <button onClick={this.capture} class="btn btn-primary big-text">Capture photo</button>
             <br></br>
             <Dropzone
-              className="btn btn-small btn-primary btn-upload bg-black h5"
+              className="btn btn-primary big-text"
               accept="image/jpeg, image/png"
               multiple={false}
               disabled={!ready}
@@ -161,10 +161,8 @@ class App extends Component {
               Upload image
             </Dropzone>
         </div>
-          <div className="py1">
-          </div>
           {imgUrl && (
-            <div className="relative">
+            <div className="result">
               <img
                 ref={el => (this.img = el)}
                 onLoad={this.handleImgLoaded}

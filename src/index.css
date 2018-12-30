@@ -60,7 +60,7 @@ main {
 }
 
 .fs-tiny {
-  font-size: 10px;
+  font-size: 20px;
 }
 
 .bg-light {
@@ -87,4 +87,29 @@ main {
   display: flex;
   flex-direction: column;
   text-align: center;
+  position: fixed;
+  z-index: 10;
+  background: rgba(255,255,255,0.6);
+}
+.cam{
+  max-width: 30vw;
+  right: 0px;
+  top: -65px;
+  max-height: 55vh;
+}
+.cam video{
+  max-width: 30vw;
+  min-width: 300px;
+}
+.result{
+  top: 0;
+}
+.result img, .result canvas{
+  top: 0;
+ min-width: 100vw;
+}
+.big-text{
+  font-size: 20px;
+  padding: 20px;
+  background: #40004d;
 }
