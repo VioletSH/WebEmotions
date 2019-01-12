@@ -140,7 +140,7 @@ class App extends Component {
       <div className="px2 mx-auto container app">
         <Header />
         <main>
-          <div className="cam">
+          {(ready &&!loading) &&<div className="cam">
             <Webcam
               audio={false}
               height={600}
@@ -160,7 +160,7 @@ class App extends Component {
             >
               Upload image
             </Dropzone>
-        </div>
+        </div>}
           {imgUrl && (
             <div className="result">
               <img

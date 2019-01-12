@@ -106,7 +106,7 @@ main {
 }
 .result img, .result canvas{
   top: 0;
- min-width: 100vw;
+  min-width: 100vw;
 }
 .big-text{
   font-size: 20px;
