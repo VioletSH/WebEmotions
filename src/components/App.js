@@ -128,6 +128,7 @@ class App extends Component {
   };
  
   render() {
+    if(!this.props.isAuthenticated)this.props.history.push("/"); 
     const { ready, imgUrl, loading, faces, emotions } = this.state
     const noFaces = ready && !loading && imgUrl && !faces.length
     const videoConstraints = {

@@ -1,6 +1,5 @@
 {
-  "name": "faces",
-  "homepage": "https://brendansudol.github.io/faces",
+  "name": "violet",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
@@ -12,8 +11,10 @@
     "face-api.js": "^0.10.0",
     "lodash.debounce": "^4.0.8",
     "react": "^16.7.0",
+    "react-bootstrap": "^0.32.4",
     "react-dom": "^16.4.1",
     "react-dropzone": "^4.3.0",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
     "react-webcam": "^1.0.4",
     "tslib": "^1.9.3"
