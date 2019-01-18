@@ -7,7 +7,7 @@ class Main extends Component {
         super(props);
         
         this.state = {
-            isAuthenticated: false
+            isAuthenticated: true
         };
         }
         
